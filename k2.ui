@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>K2</class>
+ <widget class="QWidget" name="K2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1057</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1057</width>
+    <height>641</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1057</width>
+    <height>641</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>10</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>软件个人认识</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>80</y>
+     <width>451</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:7.2pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;程序是大量指令的集合，用于编写程序的语言就叫编程语言，计算机能够直接识别和执行的是二进制的机器语言（&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E6%9C%BA%E5%99%A8%E6%8C%87%E4%BB%A4%E7%BC%96%E7%A0%81&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;机器指令编码&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;），早期的程序员是直接编写机器语言的，显然这样效率极低，后来人们使用&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%8A%A9%E8%AE%B0%E7%AC%A6&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;助记符&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;代替指令的操作码，用地址符号或标号代替指令或操作数的地址，这便诞生了汇编语言，汇编语言与硬件高度相关，是一门低级语言，再后来又发展出了编写效率和抽象层次更高的c/c++、JAVA、Python这样的高级语言。大多数学校都会开设一门高级编程语言课程作为入门，比如答主所在学校是「程序设计基础（C语言）」，入门之后，还会开设「汇编语言程序设计」这门课程，帮助我们了解编程语言与指令集之间的关系，理解程序执行的本质过程。大多数学校还会选择一门面向对象语言作为面向对象编程的入门，比如答主所在学校是「面向对象程序设计（C++）」。学习了编程语言之后，如何将高级语言翻译为机器能够识别的机器语言？更一般的，如何将某种源语言翻译为另一种目标语言？这就是「编译原理与设计」所要学习的知识了。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;当然，能编写出程序还远远不够，计算资源是有限的，如何降低程序运行的时间和空间复杂度便成为了必要，这要求我们学习「计算理论与算法分析设计」，掌握基本的复杂度分析手段、经典的算法思想，以及更加抽象的图灵机、NP完全性等计算理论。在使用算法的时候，往往要求我们按照特定的结构组织数据，这便是「数据结构」的知识，数据结构是指相互之间存在一种或多种特定关系的数据元素的集合，精心选择的数据结构常常可以带来更高的运行或者存储效率。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;当软件变得越来越庞大和复杂，无论是开发、测试，还是更新维护，都变得非常困难，研究用工程化方法构建和维护有效的、实用的和高质量的软件的学科就是软件工程，这方面的概念基础课程为「&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;软件工程基础&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;」。将数据与软件独立开来，以一定方式储存在一起，实现多用户共享的统一管理的数据集合叫做数据库，学习相关理论和技术的课程为「数据库原理和设计」。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;到此为止我们都是还只是止步于单台计算机，如何将处于不同地理位置的多台计算机连接起来呢？计算机网络就是多台计算机连接起来实现资源共享和信息传递的计算机系统。就像一个城市的交通系统有许多交通规则一样，许许多多的计算机之间要进行通信，也需要制定规范的“交通规则”，这便是协议。人们将计算机网络分为多个协议层，「计算机网络」这门课程学习的主要内容就是每层的协议。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>551</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Image/36.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>600</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>在课程体系以及学习资源处有常见编程语言学习的网站哟~~~</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c1">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>460</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
