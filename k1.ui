@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>K1</class>
+ <widget class="QWidget" name="K1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>908</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>908</width>
+    <height>601</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>908</width>
+    <height>601</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>0</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>软硬件分界面个人认识</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>60</y>
+     <width>281</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:7.2pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;当计算机同时运行多个程序时，如何有效管理和分配计算机的软硬件资源便成为了一个复杂的问题，因此人们引入了操作系统的概念。操作系统是最底层的软件，向应用程序和用户提供调用计算机资源的接口以及使用计算机的交互界面，需要实现的功能主要有内存管理、进程调度、文件系统等。学习操作系统的理论原理和技术实现的课程就叫「&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;操作系统原理&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;」。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;计算机应该包含哪些部件？各部件要完成哪些功能？哪些功能由硬件子系统完成，哪些功能交由软件完成？回答这些问题的课程便是「&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;计算机体系结构&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;」。计算机体系结构是程序员所看到的计算机的属性，即概念性结构与功能特性（1964年，C.M.Amdahl），一般包含数据表示、寻址方式、&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%AF%84%E5%AD%98%E5%99%A8%E7%BB%84%E7%BB%87&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;寄存器组织&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;、指令集、存储系统、中断机制、输入输出结构、信息保护等。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>491</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Image/35.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c1">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>480</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
