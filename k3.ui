@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>K3</class>
+ <widget class="QWidget" name="K3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1057</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1057</width>
+    <height>641</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1057</width>
+    <height>641</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>对硬件的认识</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>100</y>
+     <width>401</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:7.2pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;当确定了计算机的体系结构后，如何实现各部件的功能以及各部件的连接关系就是「计算机组成原理」。举个例子，当我们确定一台计算机的指令集应当包含乘法指令时，是用&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%8A%A0%E6%B3%95%E7%94%B5%E8%B7%AF&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;加法电路&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;实现还是用加法和移位电路共同实现乘法指令呢？这个问题就属于计算机组成原理的范畴。计算机组成原理包含CPU中指令的具体执行过程、数值的基础运算、存储系统和结构、外围设备、I/O接口等等概念和原理。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;在计算机组成原理的理论知识储备下，「&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E5%BE%AE%E6%9C%BA%E6%8E%A5%E5%8F%A3%E6%8A%80%E6%9C%AF&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;微机接口技术&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;」进一步带我们了解它们在工程上的实现，比如现有的通用或专门的芯片认识与实现。该课程将会涉及到具体CPU（如Inter x86系列）的引脚功能、&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E6%80%BB%E7%BA%BF%E5%91%A8%E6%9C%9F&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;总线周期&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;，I/O端口的地址分配等等细致的工程知识。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;搭建CPU、存储器等组件，离不开&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E7%BB%84%E5%90%88%E9%80%BB%E8%BE%91%E7%94%B5%E8%B7%AF&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;组合逻辑电路&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;和时序电路等基本电路单元，实现基础运算即布尔运算，离不开与或非等&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E9%80%BB%E8%BE%91%E9%97%A8%E7%94%B5%E8%B7%AF&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;逻辑门电路&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;，如何用三极管实现这些电路，是「数字电子技术基础」所学的内容，而三极管的原理则在「&lt;/span&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80&amp;amp;search_source=Entity&amp;amp;hybrid_search_source=Entity&amp;amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A690957563%7D&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;模拟电子技术基础&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;」里学到，这门课同时还会讲基本放大电路、波形的发生和转换等等与常用半导体器件相关联的知识。其中，电路的基本概念和理论知识便是「电路分析基础」所讲授的内容，再往下就是单个电子的运动了，这些知识包含在「大学物理」中的电磁场部分。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>551</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Image/39.webp);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="c1">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>500</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CLOSE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
